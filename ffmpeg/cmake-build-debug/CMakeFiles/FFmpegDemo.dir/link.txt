@@ -1,0 +1,3 @@
+"D:\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\FFmpegDemo.dir/objects.a
+D:\Dev-Cpp\MinGW64\bin\ar.exe cr CMakeFiles\FFmpegDemo.dir/objects.a @CMakeFiles\FFmpegDemo.dir\objects1.rsp
+D:\Dev-Cpp\MinGW64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\FFmpegDemo.dir/objects.a -Wl,--no-whole-archive  -o FFmpegDemo.exe -Wl,--out-implib,libFFmpegDemo.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\FFmpegDemo.dir\linklibs.rsp
